@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Ztext from "react-ztext";
 
 const Nav = () => {
