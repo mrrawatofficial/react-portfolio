@@ -644,6 +644,8 @@ footer {
     color: $lightTextColor;
   }
   .footer-link {
+    display: flex;
+    flex-wrap: wrap;
     li {
       list-style: none;
       a {
@@ -651,7 +653,7 @@ footer {
         cursor: pointer;
         transition-duration: 0.5s;
         &:hover {
-          margin-left: 0.625rem;
+//           margin-left: 0.625rem;
           color: $primaryColor;
         }
       }
